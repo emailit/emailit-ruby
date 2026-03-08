@@ -21,6 +21,8 @@ Gem::Specification.new do |spec|
   spec.files = Dir["lib/**/*.rb", "LICENSE", "README.md"]
   spec.require_paths = ["lib"]
 
+  spec.add_dependency "base64"
+
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "webmock", "~> 3.0"
   spec.add_development_dependency "mail", "~> 2.7"
