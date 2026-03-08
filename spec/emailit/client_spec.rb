@@ -73,7 +73,7 @@ RSpec.describe Emailit::EmailitClient do
 
   describe "Emailit::VERSION" do
     it "is defined" do
-      expect(Emailit::VERSION).to eq("2.0.0")
+      expect(Emailit::VERSION).to eq("2.0.1")
     end
   end
 end
